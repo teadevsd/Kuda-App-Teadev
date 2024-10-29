@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { IoMdArrowDropright } from "react-icons/io";
-import {Link} from "react-router-dom"
+// import {Link} from "react-router-dom"
 
 
 
