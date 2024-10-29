@@ -176,8 +176,12 @@ const SignBtn = styled.div `
     background-color: transparent;
 
 @media (max-width: 1200px){
-        display: none;
+        display: block;
         font-size: 15px;
+    }
+
+    @media (max-width: 768px){
+        display: none;
     }
 `
 const JoinBtn = styled.div `
