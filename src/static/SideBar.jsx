@@ -36,11 +36,11 @@ const Sidebar = ({toggle}) =>{
                     <nav>Developer </nav>
                 </Styledlink>
 
-                <Styledlink to= "/companies">
+                <Styledlink to= "/contact">
                     <nav>Contact Us</nav>
                 </Styledlink>
 
-                <Styledlink to= "/companies">
+                <Styledlink to= "/help">
                     <nav>Help <IoMdArrowDropright /></nav>
                 </Styledlink>
             </Naviga>
