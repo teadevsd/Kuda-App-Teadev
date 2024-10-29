@@ -133,7 +133,7 @@ const Button = styled.div`
   }
 
   @media (max-width: 480px) {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 `;

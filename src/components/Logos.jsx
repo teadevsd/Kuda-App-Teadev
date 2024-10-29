@@ -43,6 +43,7 @@ const Logcont = styled.div`
     padding: 30px;
 
     img{
-        max-width: 250px;
+        max-width: 200px;
     }
+
 `

@@ -47,6 +47,7 @@ const Contentdet = styled.div`
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
     @media (max-width: 950px) {
+    justify-content: center;
     text-align: center;
 }
 `
@@ -75,8 +76,6 @@ const Moneycont = styled.div`
     }
 }
 
-
-
 `
 const Button = styled.div`
     button{
@@ -93,6 +92,10 @@ const Button = styled.div`
     &:hover{
         background-color: #520f9e;
         transform: translateY(-1px);
+    }
+
+    @media (max-width: 800px) {
+        margin-left: 0;
     }
 }`
 
