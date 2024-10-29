@@ -164,7 +164,7 @@ const Buttons = styled.div `
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    gap: 30px;
+    gap: 5px;
     color: #7e639c;
     font-weight: 600;
     font-size: 13px;
@@ -176,7 +176,7 @@ const SignBtn = styled.div `
     background-color: transparent;
 
 @media (max-width: 1200px){
-        /* display: none; */
+        display: none;
         font-size: 15px;
     }
 `

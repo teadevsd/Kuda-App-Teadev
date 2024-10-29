@@ -63,11 +63,11 @@ const Button = styled.div`
         padding: 16px 30px;
         background-color: #40196d;
         color: white;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: bold;
         border-radius: 10px;
         border: none;
-        margin-left: 50px;
+        /* margin-left: 50px; */
         margin-bottom: 50px;
         cursor: pointer;
     &:hover{
@@ -81,11 +81,11 @@ const Sighin = styled.div`
         padding: 16px 30px;
         background-color: #d3d3d365;
         color: #40196d;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: bold;
         border-radius: 10px;
         border: none;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-bottom: 50px;
         cursor: pointer;
     &:hover{
@@ -105,8 +105,8 @@ const Styledlink = styled(Link)`
         justify-content: space-between;
         cursor: pointer;
         border-bottom: 1px solid lightgrey;
-        margin-bottom: 20px;
-        font-size: 18px;
+        /* margin-bottom: 10px; */
+        font-size: 16px;
         font-weight: 500;
         padding: 20px 0;
         color: #40196d;

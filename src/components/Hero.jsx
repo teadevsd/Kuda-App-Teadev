@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import apple from "../assets/image/png/applee.png"
-import playstore from "../assets/image/png/applee.png"
+import playstore from "../assets/image/png/google.png"
 import cbn from "../assets/image/png/cbn.png"
 import spin from "../assets/image/svg/spin.svg"
 import kmoney from "../assets/image/svg/kmoney.svg"
@@ -175,7 +175,7 @@ const Imagecont = styled.div`
     .spin {
         width: 100%;
         position: absolute;
-        animation: spin 6s linear infinite;
+        animation: spin 7s linear infinite;
         transform-origin: center;
         
 
