@@ -134,6 +134,7 @@ const Logo = styled.div `
 const Navigations = styled.div `
     display: flex;
     
+    
     nav{
         display: flex;
         align-items: center;
@@ -168,19 +169,21 @@ const Buttons = styled.div `
     font-weight: 600;
     font-size: 13px;
     margin: 0 30px;
-    
+
+ 
 `
 const SignBtn = styled.div `
     background-color: transparent;
 
-@media (max-width: 768px){
-        display: none;
+@media (max-width: 1200px){
+        /* display: none; */
+        font-size: 15px;
     }
 `
 const JoinBtn = styled.div `
     padding: 10px 30px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 12px;
     background-color: #40196d;
     color: white;
 

@@ -33,6 +33,11 @@ const Imagecont = styled.div`
     img{
         width: 400px;
     }
+
+    @media (max-width: 800px) {
+        img{
+            width: 250px;}
+    }
 `
 const Buttoncont = styled.div`
     text-align: center;

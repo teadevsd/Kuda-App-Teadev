@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { IoMdArrowDropright } from "react-icons/io";
-// import {Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 
 
-const Sidebar = () =>{
+const Sidebar = ({toggle}) =>{
     return (
         <Container>
 
@@ -20,29 +20,29 @@ const Sidebar = () =>{
 
 
             <Naviga>
-                <Link to="/">
+                <Styledlink to="/">
                     <nav>Personal <IoMdArrowDropright /> </nav>
-                </Link>
+                </Styledlink>
 
-                <Link to= "/business">
+                <Styledlink to= "/business">
                     <nav>Business <IoMdArrowDropright /></nav>
-                </Link>
+                </Styledlink>
                 
-                <Link to= "/companies">
+                <Styledlink to= "/companies">
                     <nav>Companies <IoMdArrowDropright /></nav>
-                </Link>
+                </Styledlink>
 
-                <Link to= "/developer">
+                <Styledlink to= "/developer">
                     <nav>Developer </nav>
-                </Link>
+                </Styledlink>
 
-                <Link to= "/companies">
+                <Styledlink to= "/companies">
                     <nav>Contact Us</nav>
-                </Link>
+                </Styledlink>
 
-                <Link to= "/companies">
+                <Styledlink to= "/companies">
                     <nav>Help <IoMdArrowDropright /></nav>
-                </Link>
+                </Styledlink>
             </Naviga>
             
         </Container>
@@ -97,7 +97,8 @@ const Naviga = styled.div`
     /* display: flex;
     justify-content: se; */
 `
-const Link = styled.div`
+const Styledlink = styled(Link)`
+    text-decoration: none;
     nav{
         display: flex;
         align-items: center;

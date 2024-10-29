@@ -81,7 +81,7 @@ const Carddetails = styled.div`
     padding: 20px;
 
 @media (max-width: 800px) {
-    max-width: 70%;
+    max-width: 90%;
     }
 `
 const Headtext = styled.div`

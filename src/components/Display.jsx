@@ -120,7 +120,7 @@ const ImageCont = styled.div`
     }
 @media (max-width: 1200px) {
     img{
-        max-width: 400px;
+        max-width: 300px;
     }
 }
 `
@@ -150,7 +150,7 @@ const Title = styled.h2`
 
 @media (max-width: 1200px) {
     max-width: 100%;
-    font-size: 26px;
+    font-size: 22px;
     /* text-align: center; */
 }
 `
@@ -180,4 +180,10 @@ const Bottomhead = styled.div`
     font-size: 16px;
     color: #40196d;
     margin: 40px 0 80px 0;
+
+@media (max-width: 800px) {
+    font-size: 13px;
+    margin: 20px 40px;
+    text-align: center;
+}
 `
