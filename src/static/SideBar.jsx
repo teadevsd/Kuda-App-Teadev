@@ -4,7 +4,10 @@ import {Link} from "react-router-dom"
 
 
 
-const Sidebar = ({toggle}) =>{
+const Sidebar = ({setDisplay}) =>{
+    const handleClick =()=>{
+        setDisplay(false);
+    }
     return (
         <Container>
 
@@ -20,27 +23,27 @@ const Sidebar = ({toggle}) =>{
 
 
             <Naviga>
-                <Styledlink to="/">
+                <Styledlink to="/" onClick={handleClick}>
                     <nav>Personal <IoMdArrowDropright /> </nav>
                 </Styledlink>
 
-                <Styledlink to= "/business">
+                <Styledlink to= "/business" onClick={handleClick}>
                     <nav>Business <IoMdArrowDropright /></nav>
                 </Styledlink>
                 
-                <Styledlink to= "/companies">
+                <Styledlink to= "/companies" onClick={handleClick}>
                     <nav>Companies <IoMdArrowDropright /></nav>
                 </Styledlink>
 
-                <Styledlink to= "/developer">
+                <Styledlink to= "/developer" onClick={handleClick}>
                     <nav>Developer </nav>
                 </Styledlink>
 
-                <Styledlink to= "/contact">
+                <Styledlink to= "/contact" onClick={handleClick}>
                     <nav>Contact Us</nav>
                 </Styledlink>
 
-                <Styledlink to= "/help">
+                <Styledlink to= "/help" onClick={handleClick}>
                     <nav>Help <IoMdArrowDropright /></nav>
                 </Styledlink>
             </Naviga>
@@ -94,8 +97,7 @@ const Sighin = styled.div`
 }`
 
 const Naviga = styled.div`
-    /* display: flex;
-    justify-content: se; */
+    
 `
 const Styledlink = styled(Link)`
     text-decoration: none;
