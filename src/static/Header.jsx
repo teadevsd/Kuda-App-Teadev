@@ -3,12 +3,12 @@ import styled from "styled-components";
 import { IoReorderTwoOutline } from "react-icons/io5";
 import {Link} from "react-router-dom"
 import { useState } from "react";
-import Sidebar from "./SideBar";
+import Sidebar from "../static/SideBar"
 import nigeria from "../assets/image/png/nigeria.png"
 
 
 const Header = () =>{
-    const [toggle, setToggle] = useState(false)
+    const [toggle, setToggle] = useState(false);
 
         const handleToggle = () =>{
             setToggle(!toggle)
@@ -68,7 +68,7 @@ const Header = () =>{
                     
                 </Container>
             </Wrapper>
-            {toggle === false ? null: <Sidebar toggle ={toggle}/>}
+            {toggle && <Sidebar toggle={setToggle} />}
         </>
     )
 }
